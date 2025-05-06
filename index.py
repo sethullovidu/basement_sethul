@@ -57,3 +57,7 @@ elif userop==4:
 n=5
 for i in range(n):
     print("*"*10)
+
+# displaying r traingle
+for i in range(1,n):
+    print(n*"n")
