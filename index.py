@@ -52,3 +52,8 @@ elif userop==3:
 elif userop==4:
      # call fuction
     devi(num1,num2)
+
+# displaying square
+n=5
+for i in range(n):
+    print("*"*10)
