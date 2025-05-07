@@ -73,3 +73,5 @@ import numpy as np
 nrr=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
 # displaying created array
 print(nrr)
+# shape of array
+print(nrr.shape)
