@@ -77,3 +77,7 @@ print(nrr)
 print(nrr.shape)
 # size of array
 print(nrr.size)
+# displaying all elements by row-wise
+for c in range(len(nrr)):
+  print(nrr[c])
+
