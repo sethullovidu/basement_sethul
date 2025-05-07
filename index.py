@@ -66,3 +66,10 @@ print("-"*20)
 # displaying d traingle
 for i in range(n,0,-1):
     print(i*"*")
+
+# importing numpy
+import numpy as np
+# creating array
+nrr=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+# displaying created array
+print(nrr)
