@@ -80,4 +80,8 @@ print(nrr.size)
 # displaying all elements by row-wise
 for c in range(len(nrr)):
   print(nrr[c])
+# row-major order traversal
+for c in range(len(nrr)):
+  for l in range(len(nrr[c])):
+    print(nrr[c][l])
 
