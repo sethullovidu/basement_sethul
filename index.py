@@ -97,3 +97,7 @@ for c in range(len(nrr)):
       print(sub)
     else :
       print(sub)
+
+# method ii
+nrr[nrr > 6] = 0
+print(nrr)
