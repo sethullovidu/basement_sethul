@@ -103,5 +103,9 @@ nrr[nrr > 6] = 0
 print(nrr)
 
 # create empty list
-nlist=[]
-
+nlist=[] 
+# getting user inputs
+luser=input("enter your name :")
+# inserting username to list
+nlist.append(luser)
+print(nlist)
