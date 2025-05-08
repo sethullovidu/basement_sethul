@@ -109,3 +109,10 @@ luser=input("enter your name :")
 # inserting username to list
 nlist.append(luser)
 print(nlist)
+
+# creating list
+nlist = []
+# creating infinity loop
+while True:
+    # getting user inputs
+    luser = input("Enter your name (or -999 to stop): ")
