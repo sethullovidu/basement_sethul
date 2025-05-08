@@ -101,3 +101,7 @@ for c in range(len(nrr)):
 # method ii
 nrr[nrr > 6] = 0
 print(nrr)
+
+# create empty list
+nlist=[]
+
