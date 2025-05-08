@@ -85,3 +85,15 @@ for c in range(len(nrr)):
   for l in range(len(nrr[c])):
     print(nrr[c][l])
 
+#  Replace all elements greater than 6 with 0
+import numpy as np
+nrr=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+for c in range(len(nrr)):
+  for l in range(len(nrr[c])):
+    # print(nrr[c][l])
+    sub=nrr[c][l]
+    if sub > 6 :
+      sub=0
+      print(sub)
+    else :
+      print(sub)
