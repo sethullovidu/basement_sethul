@@ -116,3 +116,10 @@ nlist = []
 while True:
     # getting user inputs
     luser = input("Enter your name (or -999 to stop): ")
+    # user request to stop enter -999
+    if luser == "-999":
+        break
+    # inserting user inputs to lsit
+    nlist.append(luser)
+# displying list after loop breaks
+print("Names entered:", nlist)
