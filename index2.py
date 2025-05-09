@@ -8,4 +8,5 @@ while True:
         'Name':fname+" "+lname,
         'Age':age
         }
-
+    nlist.append(person)
+    print(nlist)
