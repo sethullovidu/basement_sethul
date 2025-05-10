@@ -1,7 +1,9 @@
 nlist=[]
 while True :
     fname=input(" enter your first name :")
-    fname=input(" enter your first name :")
-    age=input("enter your age :")
-    gpa=int(input("enter your GPA :"))
-    
+    if fname == "-999":
+        print(nlist)
+        break
+    lname=input("enter your last name :")
+    age=int(input("enter your age :"))
+    gpa=float(input("enter your GPA :"))
