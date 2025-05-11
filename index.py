@@ -98,6 +98,8 @@ for c in range(len(nrr)):
     else :
       print(sub)
 
+# creating random 2*3 array between 0 and 10 
+
 # method ii
 nrr[nrr > 6] = 0
 print(nrr)
