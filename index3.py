@@ -14,3 +14,18 @@ while True :
         'GPA':gpa
     }
     nlist.append(person)
+
+
+
+import json
+# creating javascript obeject notation
+tet='''{
+  "name": "John",
+  "age": 30,
+  "isStudent":true,
+  "from":"Mathara"
+}'''
+# Converting JSON to Python:
+ctet= json.loads(tet)
+# display output
+print(ctet)
