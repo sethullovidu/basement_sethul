@@ -16,7 +16,7 @@ while True :
     nlist.append(person)
 
 
-
+# converting Javascript object notations to python
 import json
 # creating javascript obeject notation
 tet='''{
@@ -29,3 +29,20 @@ tet='''{
 ctet= json.loads(tet)
 # display output
 print(ctet)
+
+
+
+# converting python dictionary to JSON
+# creating python dictionary
+person={
+    'Name': "sethul",
+    'Age':17,
+    'IsStudent':True,
+    'from':"mathara"
+}
+# Converting dictionary to javascript object notation
+cperson=json.dumps(person)
+# display output
+print(cperson)
+
+
