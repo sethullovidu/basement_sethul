@@ -106,6 +106,11 @@ import numpy as np
 arr = np.random.randint(0, 10, (2, 3))
 print(arr)
 
+import numpy as np
+# Create a 2*3 array with random numbers between 0 and 1
+array = np.random.rand(2, 3)
+
+print(array)
 
 
 # create empty list
