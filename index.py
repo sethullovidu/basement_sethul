@@ -97,15 +97,16 @@ for c in range(len(nrr)):
       print(sub)
     else :
       print(sub)
+# method ii
+nrr[nrr > 6] = 0
+print(nrr)
 
 # creating random 2*3 array between 0 and 10 
 import numpy as np
 arr = np.random.randint(0, 10, (2, 3))
 print(arr)
 
-# method ii
-nrr[nrr > 6] = 0
-print(nrr)
+
 
 # create empty list
 nlist=[] 
