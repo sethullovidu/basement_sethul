@@ -45,4 +45,6 @@ cperson=json.dumps(person)
 # display output
 print(cperson)
 
-
+# # Removing duplicates from  List
+# creating list
+mylist = ["a", "b", "a", "c", "c"]
