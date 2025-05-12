@@ -50,3 +50,5 @@ print(cperson)
 mylist = ["a", "b", "a", "c", "c"]
 # removing duplicates
 mylist = list( dict.fromkeys(mylist) )
+# displaying none duplicates list
+print(mylist)
