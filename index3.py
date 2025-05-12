@@ -48,3 +48,5 @@ print(cperson)
 # # Removing duplicates from  List
 # creating list
 mylist = ["a", "b", "a", "c", "c"]
+# removing duplicates
+mylist = list( dict.fromkeys(mylist) )
