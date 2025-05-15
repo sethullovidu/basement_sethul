@@ -1,7 +1,3 @@
-
-
-
-
 import turtle
 
 option = 1
