@@ -39,6 +39,12 @@ while option != -999:
         t = turtle.Turtle()
         t.circle(70)
         screen.exitonclick()
+    elif option ==4:
+        screen= turtle.Screen()
+        for i in range(360):
+            t.forward(50)
+            t.left(1)
+        t=turtle.Turtle()
 
     elif option == -999:
         print("Exiting the program...")
