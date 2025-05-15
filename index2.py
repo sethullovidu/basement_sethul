@@ -5,7 +5,8 @@ print("""
 1. Input fields
 2. Drawing square with turtle
 3. Drawing circle with turtle
-4. Drawing  spirograph-style pattern
+4. Drawing spirograph-style pattern
+5. Drawing spirographic pattern with squares
 (-999 to exit)
 """)
 
@@ -47,7 +48,14 @@ while option != -999:
             t.forward(100)
             t.left(170)
             t.forward(100)
-        
+    elif option ==5:
+        screen= turtle.Screen()
+        t=turtle.Turtle()
+        for i in range(36):
+            t.left(10)
+            for i in range (4):
+                t.forward(100)
+                t.left(90)
 
     elif option == -999:
         print("Exiting the program...")
