@@ -66,6 +66,8 @@ print("-"*20)
 # displaying d traingle
 for i in range(n,0,-1):
     print(i*"*")
+# displaying diamonad
+
 
 # importing numpy
 import numpy as np
