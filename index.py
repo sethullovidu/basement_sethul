@@ -67,7 +67,9 @@ print("-"*20)
 for i in range(n,0,-1):
     print(i*"*")
 # displaying diamonad
-
+# fist half
+    for i in range(n):
+        print(" " * (n - i - 1) + "*" * (2 * i + 1))
 
 # importing numpy
 import numpy as np
