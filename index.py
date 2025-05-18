@@ -70,6 +70,9 @@ for i in range(n,0,-1):
 # fist half
     for i in range(n):
         print(" " * (n - i - 1) + "*" * (2 * i + 1))
+# second half
+    for i in range(n - 2, -1, -1):
+        print(" " * (n - i - 1) + "*" * (2 * i + 1))
 
 # importing numpy
 import numpy as np
