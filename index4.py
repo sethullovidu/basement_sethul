@@ -27,5 +27,6 @@ num1=np.array(['namal','kamal','vimal','saman','vidun'])
 num2=np.array([20000,12100,33500,21800,50000])
 # visualising as a scatter plot
 plt.scatter(students, avgmarks)
-
+# displaying output
+plt.show()
 
