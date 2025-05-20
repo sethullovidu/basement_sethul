@@ -14,3 +14,6 @@ plt.bar(students, avgmarks)
 plt.show()
 
 #---- visualization scatter graph----
+
+# importing matplotlibpyplot 
+import matplotlib.pyplot as plt
