@@ -17,3 +17,6 @@ plt.show()
 
 # importing matplotlibpyplot 
 import matplotlib.pyplot as plt
+
+import numpy as np
+# creating student array
