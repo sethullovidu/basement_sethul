@@ -20,3 +20,7 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 # creating student array
+
+# creating array
+num1=np.array(['namal','kamal','vimal','saman','vidun'])
+
