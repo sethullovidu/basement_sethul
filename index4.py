@@ -23,4 +23,7 @@ import numpy as np
 
 # creating array
 num1=np.array(['namal','kamal','vimal','saman','vidun'])
+# creating array
+num2=np.array([20000,12100,33500,21800,50000])
+
 
