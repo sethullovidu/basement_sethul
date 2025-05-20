@@ -12,3 +12,5 @@ avgmarks = np.array([50, 60, 70, 11, 22, 54, 49])
 plt.bar(students, avgmarks)
 # displaying output
 plt.show()
+
+#---- visualization scatter graph----
