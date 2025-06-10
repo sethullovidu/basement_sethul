@@ -30,4 +30,4 @@ plt.scatter(students, avgmarks)
 # displaying output
 plt.show()
 import random
-
+random.seed(10)
