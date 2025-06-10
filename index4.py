@@ -29,4 +29,5 @@ num2=np.array([20000,12100,33500,21800,50000])
 plt.scatter(students, avgmarks)
 # displaying output
 plt.show()
+import random
 
