@@ -143,6 +143,7 @@ while True:
 print("Names entered:", nlist)
 print("")
 print("")
+print("")
 
 
 
