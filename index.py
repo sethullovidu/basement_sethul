@@ -142,6 +142,7 @@ while True:
 # displying list after loop breaks
 print("Names entered:", nlist)
 print("Names entered:", nlist)
+print("Names entered:", nlist)
 
 
 
