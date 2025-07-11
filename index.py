@@ -142,6 +142,6 @@ while True:
 # displying list after loop breaks
 print("Names entered:", nlist)
 # sum
-
+# print()
 
 
