@@ -143,5 +143,6 @@ while True:
 print("Names entered:", nlist)
 # sum
 # print()
+print()
 
 
