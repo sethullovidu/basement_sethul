@@ -137,11 +137,11 @@ while True:
     # user request to stop enter -999
     if luser == "-999":
         break
-    # inserting user inputs to lsit
+    # inserting user inputs to lsitke
     nlist.append(luser)
 # displying list after loop breaks
 print("Names entered:", nlist)
-kl
+# sum
 
 
 
