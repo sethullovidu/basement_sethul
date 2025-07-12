@@ -19,6 +19,7 @@ plt.show()
 import matplotlib.pyplot as plt
 print("")
 print("")
+print("")
 import numpy as np
 # creating student array
 import numpy as np
