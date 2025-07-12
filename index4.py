@@ -22,6 +22,7 @@ print("")
 print("")
 print("")
 print("")
+print("")
 import numpy as np
 # creating student array
 import numpy as np
