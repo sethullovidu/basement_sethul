@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 print("")
 print("")
 print("")
-print("")
+print("")   
 print("")
 print("")
 import numpy as np
@@ -39,3 +39,4 @@ plt.show()
 import random
 random.seed(10)
 print(random.random())
+print()
