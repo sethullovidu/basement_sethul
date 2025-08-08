@@ -32,3 +32,4 @@ plt.savefig("donut_chart_transparent.png", transparent=True)
 
 # Show the plot
 plt.show()
+plt.show()
