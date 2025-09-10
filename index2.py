@@ -66,6 +66,7 @@ while option != -999:
         print("Invalid option. Please choose 1, 2, or 3.")
         print("Invalid option. Please choose 1, 2, or 3.")
         print("Invalid option. Please choose 1, 2, or 3.")
+        print("Invalid option. Please choose 1, 2, or 3.")
       
 
 
